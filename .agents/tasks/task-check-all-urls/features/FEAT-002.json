@@ -1,0 +1,29 @@
+{
+  "id": "FEAT-002",
+  "type": "fix",
+  "description": "For each broken URL identified in FEAT-001, research the correct working recruitment/vacancy/career page and update the Excel file. Process in batches of 10 broken URLs. For each broken URL: (1) try common recruitment page patterns on the same domain, (2) search for the organization's recruitment page, (3) update ALL rows in the Excel that reference that broken URL. Commit after each batch of 10.",
+  "status": "pending",
+  "steps": [
+    "Read url_check_results.json to get the list of broken URLs",
+    "For each broken URL, determine the base domain and try common recruitment page paths: /recruitment, /careers, /vacancy, /vacancies, /jobs, /career, /offerings/vacancies, /recruitment-notices",
+    "If a working recruitment URL is found via path probing, use it as the replacement",
+    "If no working URL is found via probing, attempt to load the organization's homepage (base domain) to confirm the site is alive, then try to find a recruitment link",
+    "Update the Excel file column E for ALL rows that reference each broken URL",
+    "Also update column F (same as E) to match the new URL",
+    "Process in batches of 10 broken URLs. After each batch, save the Excel file and commit with message 'fix: update broken URLs batch N (rows X-Y)'",
+    "If a URL cannot be fixed (site is completely dead, no alternative found), document it in findings but leave the URL as-is",
+    "After all batches are done, update this feature file with findings documenting what was fixed and what could not be fixed"
+  ],
+  "acceptance_criteria": [
+    "All broken URLs have been investigated",
+    "Working replacement URLs have been applied to the Excel file",
+    "Each batch of 10 fixes has been committed",
+    "Findings document which URLs were fixed and which remain broken (with reasons)"
+  ],
+  "verification": [
+    "python3 -c \"import openpyxl; wb=openpyxl.load_workbook('Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx'); ws=wb['Main']; print(f'Rows: {ws.max_row-1}'); empty=[r for r in range(2,ws.max_row+1) if not ws.cell(row=r,column=5).value]; print(f'Empty URLs: {len(empty)}')\"",
+    "Verify all commits are on fix/recruitment-urls-batch1 branch"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}

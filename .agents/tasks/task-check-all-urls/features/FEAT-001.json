@@ -1,0 +1,26 @@
+{
+  "id": "FEAT-001",
+  "type": "chore",
+  "description": "Check ALL 284 distinct URLs in column E for HTTP accessibility. Produce a report categorizing each URL as working (2xx/3xx response) or broken (4xx, 5xx, timeout, connection error, SSL error). Save the report as a JSON file for subsequent features to consume.",
+  "status": "in_progress",
+  "steps": [
+    "Write a Python script that reads all 284 distinct URLs from column E of the Excel file",
+    "For each URL, make an HTTP HEAD request (falling back to GET if HEAD fails) with a 15-second timeout and a browser-like User-Agent header",
+    "Follow redirects (up to 5 hops)",
+    "Record the result: status code, final URL after redirects, or error type (timeout, connection refused, SSL error, DNS failure)",
+    "Categorize results: 'working' (2xx or 3xx), 'broken' (4xx, 5xx, or any error)",
+    "Save results to url_check_results.json with structure: {working: [...], broken: [{url, error_type, status_code, rows_affected}]}",
+    "Print summary: total checked, working count, broken count",
+    "Also identify which rows in the Excel map to each broken URL"
+  ],
+  "acceptance_criteria": [
+    "All 284 distinct URLs have been checked",
+    "url_check_results.json exists with categorized results",
+    "Each broken URL entry includes the error type and the Excel row numbers that use it"
+  ],
+  "verification": [
+    "python3 -c \"import json; data=json.load(open('url_check_results.json')); print(f'Working: {len(data[\"working\"])}, Broken: {len(data[\"broken\"])}')\""
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}
