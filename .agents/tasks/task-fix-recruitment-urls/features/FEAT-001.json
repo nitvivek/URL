@@ -2,7 +2,7 @@
   "id": "FEAT-001",
   "type": "fix",
   "description": "Fix Batch 1 - 10 rows (Rows 15, 16, 19, 24, 28, 33, 38, 39, 40, 44) with homepage-only URLs. Research each organization's actual recruitment/vacancy/career page and update the Excel file. Working file: 'Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx'",
-  "status": "in_progress",
+  "status": "completed",
   "steps": [
     "Create a Python script that: (a) reads the PILOT BATCH Excel file, (b) for each of the 10 target rows, uses web_fetch/requests to check the organization's website for recruitment-specific pages, (c) updates columns E-M with the correct data",
     "For Row 15 (NIUM Bengaluru, currently https://aiia.gov.in/): Find NIUM's actual website (nium.in or similar) and its recruitment/career page",
@@ -30,5 +30,5 @@
     "Check that updated URLs contain recruitment-specific keywords where applicable"
   ],
   "blocked_reason": null,
-  "findings": ""
+  "findings": "Working file confirmed as PILOT BATCH file (per user steering). Main file deleted per user request. Research findings: (1) fert.gov.in times out from this environment but URL structure confirmed correct from other rows in the file. (2) DGCA and BCAS are JS-rendered SPAs with no static recruitment URLs - DGCA has a deeplink URL that triggers vacancy circular loading, BCAS has Angular vacancy-list API but no static page. (3) AAIB is a small org with recruitment PDF linked on homepage. (4) CCH has been replaced by NCH (National Commission for Homoeopathy). (5) CCRUM vacancy page uses parameter-based routing (mid=1752). (6) requests module was not pre-installed, had to pip install it."
 }
