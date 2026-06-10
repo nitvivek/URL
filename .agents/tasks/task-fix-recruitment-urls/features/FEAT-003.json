@@ -2,7 +2,7 @@
   "id": "FEAT-003",
   "type": "fix",
   "description": "Fix Batch 3 - 10 rows (Rows 117, 118, 120, 121, 122, 123, 124, 125, 126, 127) - Ministry of Defence organizations. Working file: 'Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx'",
-  "status": "pending",
+  "status": "in_progress",
   "steps": [
     "For Row 117 (Ministry of Defence, currently https://mod.gov.in/): Find mod.gov.in recruitment/vacancies page",
     "For Row 118 (Department of Defence, currently https://mod.gov.in/): Same - find recruitment page",
