@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-008",
+  "type": "fix",
+  "description": "Fix Batch 8 - 10 rows (Rows 324, 325, 326, 330, 337, 359, 362, 363, 364, 365) covering Water Resources field offices, Labour, MSME, and Minority Affairs.",
+  "status": "in_progress",
+  "steps": [
+    "Row 324: CWC Field/Basin Offices (currently https://cwc.gov.in/) - use CWC recruitment page",
+    "Row 325: CGWB Regional Units (currently https://cgwb.gov.in/) - use CGWB recruitment page",
+    "Row 326: Ganga Basin Directorates (currently https://nmcg.nic.in/) - use NMCG recruitment",
+    "Row 330: NWDA (currently https://www.nwda.gov.in/) - find recruitment page",
+    "Row 337: EPFO (currently https://epfindia.gov.in/) - find recruitment page",
+    "Row 359: Coir Board (currently https://coirboard.gov.in/) - find recruitment page",
+    "Row 362: Ministry of Minority Affairs (currently https://minorityaffairs.gov.in/) - find recruitment page",
+    "Row 363: Ministry of Minority Affairs Secretariat (currently https://minorityaffairs.gov.in/)",
+    "Row 364: Education Division (currently https://minorityaffairs.gov.in/)",
+    "Row 365: Policy Planning & Research Division (currently https://minorityaffairs.gov.in/)"
+  ],
+  "acceptance_criteria": ["All 10 rows updated"],
+  "verification": ["Verify updated URLs"],
+  "blocked_reason": null,
+  "findings": ""
+}
