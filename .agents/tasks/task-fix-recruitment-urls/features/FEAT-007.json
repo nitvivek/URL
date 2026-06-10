@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-007",
+  "type": "fix",
+  "description": "Fix Batch 7 - 10 rows (Rows 295, 296, 298, 299, 300, 302, 310, 321, 322, 323) covering Housing field offices, I&B, and Water Resources organizations.",
+  "status": "completed",
+  "steps": [
+    "Row 295: CPWD Field Units/Zones (currently https://cpwd.gov.in/) - use CPWD recruitment page",
+    "Row 296: Directorate of Estates Regional (currently https://estates.gov.in/) - use Estates recruitment",
+    "Row 298: NKDA (currently https://mohua.gov.in/) - find recruitment page",
+    "Row 299: Noida Authority (currently https://mohua.gov.in/) - find recruitment page",
+    "Row 300: NBO (currently https://mohua.gov.in/) - use MoHUA recruitment",
+    "Row 302: HUDCO (currently https://hudco.org/) - find recruitment page",
+    "Row 310: CBFC (currently https://www.cbfcindia.gov.in/) - find recruitment page",
+    "Row 321: CWC (currently https://cwc.gov.in/) - find recruitment page",
+    "Row 322: CGWB (currently https://cgwb.gov.in/) - find recruitment page",
+    "Row 323: NMCG (currently https://nmcg.nic.in/) - find recruitment page"
+  ],
+  "acceptance_criteria": ["All 10 rows have recruitment-specific URLs where available"],
+  "verification": ["Re-read target rows and verify URLs"],
+  "blocked_reason": null,
+  "findings": "Updated 10 rows. Row 295 (CPWD Field Units): uses central CPWD recruitment page at /HumanResource/RecurtmentRules.aspx. Row 296 (Estates Regional): circulars section at /frontMultiplePDF/circulars-el-n/329. Row 298 (NKDA): found nkdamar.org/memorandum/advertisement with contractual engagement notices confirmed live. Row 299 (Noida Authority): noidaauthorityonline.in is down (shows Plesk page), mapped to MoHUA publications. Row 300 (NBO): no independent site, uses MoHUA. Row 302 (HUDCO): career page at hudco.org.in (not .org), confirmed live with recruitment PDFs. Row 310 (CBFC): no separate vacancy page exists - vacancy circulars posted as PDFs on homepage (2025/2026 circulars found), kept homepage URL with detailed note. Row 321 (CWC): dedicated /en/vacancies page confirmed via Wayback Aug 2025, site returns 401 to automated access. Row 322 (CGWB): /vacancies-0 page confirmed in site navigation via Wayback Dec 2024. Row 323 (NMCG): recruitment section with Apply Online at /application/ApplyNow.aspx confirmed via Wayback Dec 2024."
+}
