@@ -2,7 +2,7 @@
   "id": "FEAT-002",
   "type": "fix",
   "description": "Fix Batch 2 - 10 rows (Rows 52, 53, 56, 59, 62, 68, 75, 77, 81, 102) with homepage-only URLs. These are Ministry of Commerce & Industry, Communications, Consumer Affairs, and Culture organizations. Working file: 'Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx'",
-  "status": "in_progress",
+  "status": "completed",
   "steps": [
     "For Row 52 (Ministry of Commerce & Industry, currently https://commerce.gov.in/): Find commerce.gov.in/recruitment or /vacancies page",
     "For Row 53 (Department of Commerce, currently https://commerce.gov.in/): Same ministry - find recruitment page",
@@ -27,5 +27,5 @@
     "Check URLs contain recruitment keywords where possible"
   ],
   "blocked_reason": null,
-  "findings": ""
+  "findings": "Updated 10 rows. 5 rows got specific recruitment/vacancy URLs: Row 52/53/56 -> commerce.gov.in/#/offerings/vacancies (confirmed from Vite React SPA JS bundle route analysis), Row 59 -> teaboard.gov.in/TEABOARDPAGE/MTQ= (actual Vacancy page, corrected from NTRF page MjU=), Row 68 -> dot.gov.in/offerings/vacancies (confirmed from Next.js build manifest). 5 rows retained homepage URLs with documented reasons: Row 62 (tobaccoboard.in - legacy PHP site, no recruitment page, small org), Row 75 (dfpd.gov.in - site unreachable/timeout), Row 77 (dmi.gov.in - 403 WAF blocked), Row 81 (consumeraffairs.gov.in - unreachable/timeout), Row 102 (ansi.gov.in - 403/timeout WAF protected). Many Indian gov sites are now SPAs (Next.js, Vite/React) that cannot be scraped with simple HTTP requests - JS bundle analysis is needed to find routes. Several sites block automated access entirely."
 }
