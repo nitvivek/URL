@@ -2,7 +2,7 @@
   "task_id": "task-fix-recruitment-urls",
   "task_description": "Fix 162 rows in the PILOT BATCH Excel file where URLs lack recruitment-specific keywords. These are homepage-only links that need to be replaced with actual recruitment/vacancy/career page URLs. Work is divided into batches of 10 rows each (17 batches total). Starting with Batch 1 (first 10 rows).",
   "status": "in_progress",
-  "feature_order": ["FEAT-001", "FEAT-002", "FEAT-003", "FEAT-004", "FEAT-005", "FEAT-006", "FEAT-007", "FEAT-008", "FEAT-009", "FEAT-010", "FEAT-011", "FEAT-012"],
+  "feature_order": ["FEAT-001", "FEAT-002", "FEAT-003", "FEAT-004", "FEAT-005", "FEAT-006", "FEAT-007", "FEAT-008", "FEAT-009", "FEAT-010", "FEAT-011", "FEAT-012", "FEAT-013", "FEAT-014", "FEAT-015", "FEAT-016", "FEAT-017"],
   "blocked_reason": null,
   "notes": "Total 162 rows across 17 batches. Starting with first 3 batches. Additional batches will be added as work progresses. Working file is 'Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx' (NOT the main file)."
 }
