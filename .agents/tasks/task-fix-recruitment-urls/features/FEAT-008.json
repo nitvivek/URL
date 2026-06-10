@@ -2,7 +2,7 @@
   "id": "FEAT-008",
   "type": "fix",
   "description": "Fix Batch 8 - 10 rows (Rows 324, 325, 326, 330, 337, 359, 362, 363, 364, 365) covering Water Resources field offices, Labour, MSME, and Minority Affairs.",
-  "status": "in_progress",
+  "status": "completed",
   "steps": [
     "Row 324: CWC Field/Basin Offices (currently https://cwc.gov.in/) - use CWC recruitment page",
     "Row 325: CGWB Regional Units (currently https://cgwb.gov.in/) - use CGWB recruitment page",
@@ -18,5 +18,5 @@
   "acceptance_criteria": ["All 10 rows updated"],
   "verification": ["Verify updated URLs"],
   "blocked_reason": null,
-  "findings": ""
+  "findings": "All 10 rows updated. CWC (cwc.gov.in/en/vacancies), CGWB (cgwb.gov.in/vacancies-0), NMCG (nmcg.nic.in/application/ApplyNow.aspx) confirmed via Wayback. NWDA vacancy_list.php found via Wayback cached homepage navigation. EPFO Recruitments.php found via Wayback cached homepage under Miscellaneous menu. Coir Board page_id=14619 (Recruitment Updates) found via Wayback cached homepage. Minority Affairs show_content.php?lang=1&level=0&ls_id=251&lid=9 (Careers) found via Wayback cached page nav link. Rows 362-365 all point to same Minority Affairs Careers page as they are all divisions under one ministry with centralized recruitment."
 }
