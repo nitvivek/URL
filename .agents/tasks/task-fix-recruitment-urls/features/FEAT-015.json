@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-015",
+  "type": "fix",
+  "description": "Fix Batch 15 - 10 rows (Rows 564, 565, 566, 567, 568, 569, 570, 571, 572, 573) covering WCD divisions and sub-organizations.",
+  "status": "in_progress",
+  "steps": [
+    "Row 564: WCD Secretariat (currently https://wcd.gov.in/) - find WCD recruitment page",
+    "Row 565: Child Development Division (currently https://wcd.gov.in/) - same",
+    "Row 566: Women Empowerment Division (currently https://wcd.gov.in/) - same",
+    "Row 567: Mission Shakti Division (currently https://wcd.gov.in/) - same",
+    "Row 568: Mission Vatsalya Division (currently https://wcd.gov.in/) - same",
+    "Row 569: Mission POSHAN 2.0 Division (currently https://wcd.gov.in/) - same",
+    "Row 570: CARA (currently https://wcd.gov.in/) - find cara.nic.in or similar",
+    "Row 571: NCPCR Coordination (currently https://wcd.gov.in/) - find ncpcr.gov.in",
+    "Row 572: Anganwadi/ICDS Field Units (currently https://wcd.gov.in/) - use WCD recruitment",
+    "Row 573: State/District Mission Directorates (currently https://wcd.gov.in/) - use WCD recruitment"
+  ],
+  "acceptance_criteria": ["All 10 rows updated"],
+  "verification": ["Verify updated URLs"],
+  "blocked_reason": null,
+  "findings": ""
+}
