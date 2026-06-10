@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-014",
+  "type": "fix",
+  "description": "Fix Batch 14 - 10 rows (Rows 542, 543, 544, 545, 546, 547, 548, 550, 551, 563) covering more Textiles organizations and start of Women & Child Development.",
+  "status": "in_progress",
+  "steps": [
+    "Row 542: National Jute Board (currently https://ministryoftextiles.gov.in/) - find recruitment page",
+    "Row 543: Central Silk Board Coord (currently https://ministryoftextiles.gov.in/) - find csb.gov.in career page",
+    "Row 544: Textile Commissionerate Field Offices (currently https://ministryoftextiles.gov.in/) - use ministry recruitment",
+    "Row 545: Handloom/Handicrafts Field Formations (currently https://ministryoftextiles.gov.in/) - use ministry",
+    "Row 546: Powerloom Service Centres (currently https://ministryoftextiles.gov.in/) - use ministry",
+    "Row 547: Textiles Committee (currently https://ministryoftextiles.gov.in/) - find textilescommittee.nic.in",
+    "Row 548: Central Silk Board (currently https://ministryoftextiles.gov.in/) - find csb.gov.in career page",
+    "Row 550: NID Coordination (currently https://ministryoftextiles.gov.in/) - find nid.edu career page",
+    "Row 551: IIHT (currently https://ministryoftextiles.gov.in/) - find recruitment page",
+    "Row 563: Ministry of Women & Child Development (currently https://wcd.gov.in/) - find recruitment page (user specifically mentioned this one)"
+  ],
+  "acceptance_criteria": ["All 10 rows updated"],
+  "verification": ["Verify updated URLs"],
+  "blocked_reason": null,
+  "findings": ""
+}
