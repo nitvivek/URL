@@ -1,0 +1,28 @@
+{
+  "id": "FEAT-004",
+  "type": "fix",
+  "description": "Fix Batch 4 - 10 rows (Rows 128, 129, 148, 151, 154, 158, 161, 162, 163, 164) covering Navy/Air Force HQ, Earth Sciences, and Education organizations. Working file: 'Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx'",
+  "status": "completed",
+  "steps": [
+    "Row 128: Navy Headquarters (currently https://www.joinindiannavy.gov.in/) - check for /career or /recruitment path",
+    "Row 129: Air Headquarters (currently https://indianairforce.nic.in/) - check for /recruitment or /career",
+    "Row 148: Geological Survey of India GSI (currently https://www.gsi.gov.in/) - find recruitment page",
+    "Row 151: INCOIS (currently https://incois.gov.in/) - find recruitment page",
+    "Row 154: GSI Regional Units (currently https://www.gsi.gov.in/) - same as GSI parent",
+    "Row 158: KVS (currently https://kvsangathan.nic.in/) - find recruitment page",
+    "Row 161: CTSA (currently https://ctsa.nic.in/) - find recruitment page",
+    "Row 162: UGC (currently https://www.ugc.gov.in/) - find recruitment page",
+    "Row 163: AICTE (currently https://www.aicte-india.org/) - find recruitment page",
+    "Row 164: NCTE (currently https://ncte.gov.in/) - find recruitment page",
+    "Update columns E-M and save"
+  ],
+  "acceptance_criteria": [
+    "All 10 rows have recruitment-specific URLs where available",
+    "Excel file saves correctly"
+  ],
+  "verification": [
+    "Re-read target rows and verify URLs are updated with recruitment keywords"
+  ],
+  "blocked_reason": null,
+  "findings": "Updated 10 rows covering Navy/Air Force HQ, Earth Sciences, and Education organizations. All .gov.in sites are unreachable from this sandbox but Wayback Machine cached pages were used to confirm URL structures. Wayback CDX API was intermittently returning 503 errors, so direct page fetches via web.archive.org/web/ were used instead. Results: Row 128 -> joinindiannavy.gov.in/en/careers-jobs/executive.html (confirmed 200 in Wayback Nov 2023); Row 129 -> indianairforce.nic.in/career-in-iaf/ (confirmed 200 in Wayback Apr 2023); Row 148/154 -> gsi.gov.in/portal/page/portal/pgsi/PGSI_Home/PPageRecruitment (historic Oracle portal URL - site is now fully JS-rendered SPA, no standard recruitment path works in archives); Row 151 -> incois.gov.in/jobs/index.jsp (confirmed 200 in Wayback Jun 2023); Row 158 -> kvsangathan.nic.in/recruitment/ (confirmed 200 in Wayback Jul 2024); Row 161 -> ctsa.nic.in/vacancies/ (confirmed 200 in Wayback Jul 2020); Row 162 -> ugc.gov.in/Tenders/Jobs (confirmed 200 in Wayback Aug 2024); Row 163 -> aicte-india.org/bulletins/advertisements/ (found in homepage crawl Aug 2024); Row 164 -> ncte.gov.in/vacancies.aspx (found as link on homepage crawl Jun 2024). All 10 rows now have recruitment-specific keywords in their URLs."
+}

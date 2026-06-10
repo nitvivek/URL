@@ -1,0 +1,649 @@
+[
+  {
+    "original_url": "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,5,373",
+    "new_url": "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,5,373",
+    "method": "no_fix",
+    "rows_affected": [
+      447,
+      448,
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      460
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://wcd.gov.in/offerings/career",
+    "new_url": "https://wcd.gov.in/offerings/career",
+    "method": "now_works",
+    "rows_affected": [
+      563,
+      564,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570,
+      572,
+      573
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://ministryoftextiles.gov.in/advertisement",
+    "new_url": "https://texmin.gov.in/recruitment",
+    "method": "manual_alt_pass3",
+    "rows_affected": [
+      536,
+      537,
+      539,
+      540,
+      541,
+      542,
+      545,
+      546,
+      551
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://mod.gov.in/dod/appointment",
+    "new_url": "https://mod.gov.in/dod/appointment",
+    "method": "no_fix",
+    "rows_affected": [
+      118,
+      120,
+      122,
+      124,
+      125,
+      126
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://minorityaffairs.gov.in/show_content.php?lang=1&level=0&ls_id=251&lid=9",
+    "new_url": "https://minorityaffairs.gov.in/show_content.php?lang=1&level=0&ls_id=251&lid=9",
+    "method": "no_fix",
+    "rows_affected": [
+      362,
+      363,
+      364,
+      365,
+      367,
+      370
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://www.mca.gov.in/content/mca/global/en/about-us/recruitment.html",
+    "new_url": "https://www.mca.gov.in/content/mca/global/en/about-us/recruitment.html",
+    "method": "now_works",
+    "rows_affected": [
+      90,
+      91,
+      92,
+      93,
+      94
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://mohua.gov.in/publication.php?cid=3",
+    "new_url": "https://mohua.gov.in/publication.php?cid=3",
+    "method": "no_fix",
+    "rows_affected": [
+      290,
+      291,
+      294,
+      299,
+      300
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://agriwelfare.gov.in/en/recruitmentDetail",
+    "new_url": "https://agriwelfare.gov.in/en/recruitmentDetail",
+    "method": "now_works",
+    "rows_affected": [
+      2,
+      3,
+      4,
+      13
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://fert.gov.in/en/offerings/Vacancies",
+    "new_url": "https://fert.gov.in/en/offerings/Vacancies",
+    "method": "no_fix",
+    "rows_affected": [
+      28,
+      30,
+      32
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://www.gsi.gov.in/portal/page/portal/pgsi/PGSI_Home/PPageRecruitment",
+    "new_url": "https://www.gsi.gov.in/portal/page/portal/pgsi/PGSI_Home/PPageRecruitment",
+    "method": "now_works",
+    "rows_affected": [
+      148,
+      154
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://nationalarchives.nic.in/recruitment",
+    "new_url": "https://nationalarchives.nic.in/recruitment",
+    "method": "no_fix",
+    "rows_affected": [
+      103,
+      107
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://www.incometaxindia.gov.in/recruitment-notices",
+    "new_url": "https://www.incometaxindia.gov.in/recruitment-notices",
+    "method": "now_works",
+    "rows_affected": [
+      219,
+      221
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://cpwd.gov.in/HumanResource/RecurtmentRules.aspx",
+    "new_url": "https://cpwd.gov.in/HumanResource/RecurtmentRules.aspx",
+    "method": "no_fix",
+    "rows_affected": [
+      292,
+      295
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://cwc.gov.in/en/vacancies",
+    "new_url": "https://cwc.gov.in/en/vacancies",
+    "method": "now_works",
+    "rows_affected": [
+      321,
+      324
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://estates.gov.in/frontMultiplePDF/circulars-el-n/329",
+    "new_url": "https://estates.gov.in/frontMultiplePDF/circulars-el-n/329",
+    "method": "no_fix",
+    "rows_affected": [
+      293,
+      296
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://cgwb.gov.in/vacancies-0",
+    "new_url": "https://cgwb.gov.in/vacancies-0",
+    "method": "no_fix",
+    "rows_affected": [
+      322,
+      325
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://nmcg.nic.in/application/ApplyNow.aspx",
+    "new_url": "https://nmcg.nic.in/application/ApplyNow.aspx",
+    "method": "no_fix",
+    "rows_affected": [
+      323,
+      326
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://doptcirculars.nic.in/Default.aspx?URL=wFJpTEk06p7x",
+    "new_url": "https://doptcirculars.nic.in/Default.aspx?URL=wFJpTEk06p7x",
+    "method": "no_fix",
+    "rows_affected": [
+      393,
+      403
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://csb.gov.in/job-opportunities/job/",
+    "new_url": "https://csb.gov.in/job-opportunities/job/",
+    "method": "no_fix",
+    "rows_affected": [
+      543,
+      548
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://ccrsindia.res.in/recruitment",
+    "new_url": "https://ccrsindia.res.in/recruitment",
+    "method": "no_fix",
+    "rows_affected": [
+      22
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://nraa.gov.in/Recruitment.aspx",
+    "new_url": "https://nraa.gov.in/Recruitment.aspx",
+    "method": "now_works",
+    "rows_affected": [
+      10
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://ppqs.gov.in/en/employeecorner/vacancy-circular",
+    "new_url": "https://ppqs.gov.in/en/employeecorner/vacancy-circular",
+    "method": "now_works",
+    "rows_affected": [
+      12
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://pharmaceuticals.gov.in/recruitment",
+    "new_url": "https://pharmaceuticals.gov.in/recruitment",
+    "method": "now_works",
+    "rows_affected": [
+      31
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://www.cdot.in/cdotweb/web/careers.php",
+    "new_url": "https://www.cdot.in/cdotweb/web/careers.php",
+    "method": "no_fix",
+    "rows_affected": [
+      70
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://dmi.gov.in/",
+    "new_url": "https://dmi.gov.in/",
+    "method": "now_works",
+    "rows_affected": [
+      77
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://mod.gov.in/data-backlog-reserved-vacancies-31-12-2021-01-01-2022",
+    "new_url": "https://mod.gov.in/data-backlog-reserved-vacancies-31-12-2021-01-01-2022",
+    "method": "no_fix",
+    "rows_affected": [
+      117
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://ansi.gov.in/",
+    "new_url": "https://ansi.gov.in/",
+    "method": "now_works",
+    "rows_affected": [
+      102
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://ccrhindia.nic.in/recruitment",
+    "new_url": "https://ccrhindia.nic.in/recruitment",
+    "method": "no_fix",
+    "rows_affected": [
+      23
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://ccrum.res.in/UserView/index?mid=1752",
+    "new_url": "https://ccrum.res.in/recruitment",
+    "method": "alt_found_pass2",
+    "rows_affected": [
+      19
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://www.aai.aero/en/careers",
+    "new_url": "https://www.aai.aero/en/careers",
+    "method": "no_fix",
+    "rows_affected": [
+      41
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://dfpd.gov.in/",
+    "new_url": "https://dfpd.gov.in/",
+    "method": "no_fix",
+    "rows_affected": [
+      75
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://incois.gov.in/jobs/index.jsp",
+    "new_url": "https://incois.gov.in/jobs/index.jsp",
+    "method": "now_works",
+    "rows_affected": [
+      151
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://ncert.nic.in/CareerGuide.php?ln=hi",
+    "new_url": "https://ncert.nic.in/careers",
+    "method": "alternative_found",
+    "rows_affected": [
+      160
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://www.ugc.gov.in/Tenders/Jobs",
+    "new_url": "https://www.ugc.gov.in/Tenders/Jobs",
+    "method": "now_works",
+    "rows_affected": [
+      162
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://www.aicte-india.org/bulletins/advertisements/",
+    "new_url": "https://www.aicte-india.org/bulletins/advertisements/",
+    "method": "no_fix",
+    "rows_affected": [
+      163
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://ntarecruitment.ntaonline.in/",
+    "new_url": "https://nta.ac.in/careers",
+    "method": "manual_alt_pass3",
+    "rows_affected": [
+      169
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://desw.gov.in/",
+    "new_url": "https://desw.gov.in/",
+    "method": "no_fix",
+    "rows_affected": [
+      121
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://www.dgqadefence.gov.in/recruitment",
+    "new_url": "https://www.dgqadefence.gov.in/recruitment",
+    "method": "no_fix",
+    "rows_affected": [
+      123
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://joinindianarmy.nic.in/",
+    "new_url": "https://joinindianarmy.nic.in/",
+    "method": "no_fix",
+    "rows_affected": [
+      127
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://www.joinindiannavy.gov.in/en/careers-jobs/executive.html",
+    "new_url": "https://www.joinindiannavy.gov.in/en/careers-jobs/executive.html",
+    "method": "no_fix",
+    "rows_affected": [
+      128
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://indianairforce.nic.in/career-in-iaf/",
+    "new_url": "https://indianairforce.nic.in/career-in-iaf/",
+    "method": "no_fix",
+    "rows_affected": [
+      129
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://ignfa.gov.in/recruitment",
+    "new_url": "https://ignfa.gov.in/recruitment",
+    "method": "now_works",
+    "rows_affected": [
+      192
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://www.nipfp.org.in/careers-index-page/",
+    "new_url": "https://www.nipfp.org.in/careers-index-page/",
+    "method": "now_works",
+    "rows_affected": [
+      229
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://navodaya.gov.in/nvs/en/Recruitment/Recruitment.html",
+    "new_url": "https://navodaya.gov.in/nvs/en/Recruitment/Recruitment.html",
+    "method": "no_fix",
+    "rows_affected": [
+      159
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://ctsa.nic.in/vacancies/",
+    "new_url": "https://ctsa.nic.in/vacancies/",
+    "method": "no_fix",
+    "rows_affected": [
+      161
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://ncte.gov.in/vacancies.aspx",
+    "new_url": "https://ncte.gov.in/vacancies.aspx",
+    "method": "no_fix",
+    "rows_affected": [
+      164
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://www.epfindia.gov.in/Recruitments.php?id=sm9_index",
+    "new_url": "https://www.epfindia.gov.in/Recruitments.php?id=sm9_index",
+    "method": "no_fix",
+    "rows_affected": [
+      337
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://kvic.gov.in/vacancies.php",
+    "new_url": "https://kvic.gov.in/vacancies.php",
+    "method": "now_works",
+    "rows_affected": [
+      358
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://ndma.gov.in/Jobs/NDMA",
+    "new_url": "https://ndma.gov.in/Jobs/NDMA",
+    "method": "no_fix",
+    "rows_affected": [
+      285
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://www.svpnpa.gov.in/vacancies",
+    "new_url": "https://www.svpnpa.gov.in/vacancies",
+    "method": "no_fix",
+    "rows_affected": [
+      288
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://www.nwda.gov.in/content/innerpage/vacancy_list.php",
+    "new_url": "https://www.nwda.gov.in/content/innerpage/vacancy_list.php",
+    "method": "no_fix",
+    "rows_affected": [
+      330
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://cgat.gov.in/catlive/vacancies.php",
+    "new_url": "https://cgat.gov.in/catlive/vacancies.php",
+    "method": "now_works",
+    "rows_affected": [
+      397
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://cvc.gov.in/?q=notification/vacancies",
+    "new_url": "https://cvc.gov.in/?q=notification/vacancies",
+    "method": "no_fix",
+    "rows_affected": [
+      399
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://www.pngrb.gov.in/public_notice.html",
+    "new_url": "https://www.pngrb.gov.in/public_notice.html",
+    "method": "now_works",
+    "rows_affected": [
+      414
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://ncgg.org.in/vacancies",
+    "new_url": "https://ncgg.org.in/vacancies",
+    "method": "now_works",
+    "rows_affected": [
+      402
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://iritm.indianrailways.gov.in/view_section.jsp?lang=0&id=0,4,525",
+    "new_url": "https://iritm.indianrailways.gov.in/view_section.jsp?lang=0&id=0,4,525",
+    "method": "no_fix",
+    "rows_affected": [
+      462
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://rrbapply.gov.in/",
+    "new_url": "https://rrbapply.gov.in/",
+    "method": "now_works",
+    "rows_affected": [
+      459
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://nhai.gov.in/recruitment-in-nhai.htm",
+    "new_url": "https://nhai.gov.in/recruitment-in-nhai.htm",
+    "method": "now_works",
+    "rows_affected": [
+      476
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://coirboard.gov.in/?page_id=14619",
+    "new_url": "https://coirboard.gov.in/?page_id=14619",
+    "method": "no_fix",
+    "rows_affected": [
+      359
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://www.iifpt.edu.in/careers.php",
+    "new_url": "http://www.iifpt.edu.in/careers.php",
+    "method": "http_fallback_pass2",
+    "rows_affected": [
+      252
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://www.nipccd.nic.in/recruitment-vacancies",
+    "new_url": "https://www.nipccd.nic.in/recruitment-vacancies",
+    "method": "no_fix",
+    "rows_affected": [
+      575
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://career.nise.res.in/",
+    "new_url": "https://nise.res.in/careers",
+    "method": "manual_alt_pass3",
+    "rows_affected": [
+      378
+    ],
+    "fixed": true
+  },
+  {
+    "original_url": "https://rvnl.org/career",
+    "new_url": "https://rvnl.org/career",
+    "method": "no_fix",
+    "rows_affected": [
+      465
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "https://textilescommittee.nic.in/detail-advertisement-various-technical-and-non-technical-posts-apply-online",
+    "new_url": "https://textilescommittee.nic.in/detail-advertisement-various-technical-and-non-technical-posts-apply-online",
+    "method": "no_fix",
+    "rows_affected": [
+      547
+    ],
+    "fixed": false
+  },
+  {
+    "original_url": "http://ncw.nic.in/notice",
+    "new_url": "http://ncw.nic.in/notice",
+    "method": "no_fix",
+    "rows_affected": [
+      574
+    ],
+    "fixed": false
+  }
+]

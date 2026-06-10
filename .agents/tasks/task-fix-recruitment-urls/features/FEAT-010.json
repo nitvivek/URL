@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-010",
+  "type": "fix",
+  "description": "Fix Batch 10 - 10 rows (Rows 405, 406, 407, 408, 409, 414, 415, 416, 417, 423) covering Petroleum divisions, PNGRB, RGIPT, PSU coordination, and Shipping.",
+  "status": "completed",
+  "steps": [
+    "Row 405: Petroleum Secretariat (currently https://petroleum.gov.in/) - use mopng.gov.in/en/page/30 (found in batch 9)",
+    "Row 406: Exploration Division (currently https://petroleum.gov.in/) - same as parent",
+    "Row 407: Refineries Division (currently https://petroleum.gov.in/) - same",
+    "Row 408: Natural Gas Division (currently https://petroleum.gov.in/) - same",
+    "Row 409: Marketing Division (currently https://petroleum.gov.in/) - same",
+    "Row 414: PNGRB (currently https://www.pngrb.gov.in/) - find recruitment page",
+    "Row 415: RGIPT (currently https://www.rgipt.ac.in/) - find recruitment page",
+    "Row 416: ONGC/OIL/GAIL Policy (currently https://petroleum.gov.in/) - use ministry page",
+    "Row 417: Indian Oil/BPCL/HPCL Policy (currently https://petroleum.gov.in/) - use ministry page",
+    "Row 423: DGS Directorate General of Shipping (currently https://www.dgshipping.gov.in/) - find recruitment page"
+  ],
+  "acceptance_criteria": ["All 10 rows updated"],
+  "verification": ["Verify updated URLs"],
+  "blocked_reason": null,
+  "findings": "All 10 rows updated. Rows 405-409, 416, 417 use mopng.gov.in/en/page/30 (confirmed Vacancy Circular page via Wayback - page title 'Articles - Ministry of Petroleum And Natural Gas' with 'Vacancy circular' header). Row 414 (PNGRB) uses public_notice.html as PNGRB has no dedicated recruitment page (old recruitment.htm from 2009-2012 is now 404; regulatory body posts deputation notices via public notices). Row 415 (RGIPT) uses rgipt.ac.in/en/page/fac-recruitment (live 200, confirmed faculty recruitment page with 25 recruit keyword mentions). Row 423 (DGS) uses dgshipping.gov.in/Content/VacancyNotices.aspx (live 200, 'Vacancy Notices' title, 120 vacancy keyword mentions). Note: mopng.gov.in/en/page/30 URL does not contain recruitment keywords in path (uses numeric page ID) but confirmed content is vacancy circulars."
+}

@@ -1,0 +1,22 @@
+{
+  "project_type": "Excel data project - Indian government ministry/department recruitment URL database",
+  "language": "Python (openpyxl for Excel manipulation, requests for web checking)",
+  "build_system": "None - script-based data processing",
+  "test_framework": "None - verification by URL content checking",
+  "build_command": "N/A",
+  "test_command": "python3 verify_urls.py (to be created)",
+  "verification_instructions": "1. Open the Excel file and verify URLs in column E contain recruitment-specific keywords. 2. Spot-check URLs by fetching them to confirm they load.",
+  "snapshot_or_generated_files": "The Excel file itself is the output artifact: 'Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx'",
+  "setup_instructions": "pip install openpyxl requests",
+  "environment_constraints": "OPEN_INTERNET - can fetch any .gov.in website to find recruitment pages. Some gov sites may block automated access or use JS rendering.",
+  "contribution_requirements": "Each batch of 10 rows should be committed separately for incremental progress tracking.",
+  "key_patterns": "Working file: 'Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx', Sheet: 'Main'. Column E = recruitment URL, Column F = same URL (verified copy), Column G = 'Same Page', Column H = 'Yes', Column I = Priority (High/Medium/Low), Column J = Notes about the page, Column K = date verified, Column L = 'Yes'/'No', Column M = 'Website' or 'Portal'. 162 rows have URLs that are just homepages without recruitment-specific paths. These need to be researched and updated with the correct recruitment/vacancy/career page URL.",
+  "relevant_files": [
+    "Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx"
+  ],
+  "directory_structure": "Single repository with two Excel files. The PILOT BATCH file is the correct working file (610 rows, all populated). The other file ('Master list - Ministries and Departments.xlsx') is incomplete (only 34 rows have URLs).",
+  "working_file": "Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx",
+  "problem_summary": "162 rows have URLs that lack recruitment-specific keywords (recruit, vacanc, career, opportunit, deputation, job, employ, circular, etc). These are mostly homepage URLs that need to be replaced with the specific recruitment/vacancy/career page URL for each organization.",
+  "total_batches": 17,
+  "total_problem_rows": 162
+}

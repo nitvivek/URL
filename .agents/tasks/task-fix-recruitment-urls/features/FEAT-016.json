@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-016",
+  "type": "fix",
+  "description": "Fix Batch 16 - 10 rows (Rows 574, 575, 583, 587, 588, 589, 590, 591, 592, 593) covering NCW, NIPCCD, SAI, and Ministry of Heavy Industries.",
+  "status": "completed",
+  "steps": [
+    "Row 574: NCW (currently https://wcd.gov.in/) - find ncw.nic.in career page",
+    "Row 575: NIPCCD (currently https://wcd.gov.in/) - find nipccd.nic.in career page",
+    "Row 583: Sports Authority of India SAI (currently https://www.saiindia.in/) - find recruitment page",
+    "Row 587: Ministry of Heavy Industries (currently https://heavyindustries.gov.in/en/whats-new) - find recruitment page (user specifically mentioned dhi.gov.in)",
+    "Row 588: MoHI Secretariat (currently https://heavyindustries.gov.in/en/whats-new) - same",
+    "Row 589: Heavy Engineering Division (currently https://heavyindustries.gov.in/en/whats-new) - same",
+    "Row 590: Automotive Industry Division (currently https://heavyindustries.gov.in/en/whats-new) - same",
+    "Row 591: ARAI (currently https://heavyindustries.gov.in/en/whats-new) - find araiindia.com career page",
+    "Row 592: ICAT (currently https://heavyindustries.gov.in/en/whats-new) - find icat.in career page",
+    "Row 593: CMTI (currently https://heavyindustries.gov.in/en/whats-new) - find cmti-india.net career page"
+  ],
+  "acceptance_criteria": ["All 10 rows updated"],
+  "verification": ["Verify updated URLs"],
+  "blocked_reason": null,
+  "findings": "All 10 rows updated. Row 574 (NCW) uses ncw.nic.in/notice (Wayback Jul 2024, 200, contains vacancy/deputation posts). Row 575 (NIPCCD) uses www.nipccd.nic.in/recruitment-vacancies (Wayback 2019-2022, 200). Row 583 (SAI) uses saiindia.gov.in/en/recruitment-notices (live 200, SAI moved from defunct saiindia.in to saiindia.gov.in). Rows 587-590 (MHI and divisions) use heavyindustries.gov.in/en/job-opportunites (live 200, official nav menu link under Announcement > Job Opportunities). Row 591 (ARAI) uses araiindia.com/careers (live 301 to MaxHR recruitment portal). Row 592 (ICAT) uses icat.in/careers/ (live 200, WordPress). Row 593 (CMTI) uses cmti.res.in/career/ (live 200, new domain - cmti-india.net redirects to cmti.res.in)."
+}

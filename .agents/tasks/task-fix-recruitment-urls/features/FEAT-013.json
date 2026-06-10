@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-013",
+  "type": "fix",
+  "description": "Fix Batch 13 - 10 rows (Rows 465, 466, 467, 476, 536, 537, 538, 539, 540, 541) covering Railways PSUs, NHAI, and Ministry of Textiles.",
+  "status": "completed",
+  "steps": [
+    "Row 465: RVNL (currently https://indianrailways.gov.in/) - find rvnl.org career page",
+    "Row 466: IRCTC (currently https://indianrailways.gov.in/) - find irctc.com career page",
+    "Row 467: CONCOR (currently https://indianrailways.gov.in/) - find concorindia.co.in career page",
+    "Row 476: NHAI (currently https://nhai.gov.in/) - find recruitment page",
+    "Row 536: Ministry of Textiles (currently https://ministryoftextiles.gov.in/) - find recruitment page",
+    "Row 537: Ministry of Textiles Secretariat (currently https://ministryoftextiles.gov.in/) - same",
+    "Row 538: Office of Textile Commissioner (currently https://ministryoftextiles.gov.in/) - same",
+    "Row 539: Development Commissioner Handlooms (currently https://ministryoftextiles.gov.in/) - same",
+    "Row 540: Development Commissioner Handicrafts (currently https://ministryoftextiles.gov.in/) - same",
+    "Row 541: Development Commissioner Powerloom (currently https://ministryoftextiles.gov.in/) - same"
+  ],
+  "acceptance_criteria": ["All 10 rows updated"],
+  "verification": ["Verify updated URLs"],
+  "blocked_reason": null,
+  "findings": "All 10 rows updated. Row 465 uses rvnl.org/career (CDX confirmed career page existed 2017-2022+, vacancy PDFs uploaded to /RVNL_cms_v113/uploads/careers/; site unreachable from sandbox but confirmed active via Wayback Dec 2024). Row 466 uses www.irctc.com/recruitment.php (live 200, 12 recruitment keyword matches, meta description confirms recruitment page). Row 467 uses www.concorindia.co.in/careers.asp (live 200, React SPA careers section). Row 476 uses nhai.gov.in/recruitment-in-nhai.htm (Wayback 2020 confirmed title 'Recruitment in NHAI', has Apply Online links; CDX shows Nov 2025 PDF upload to /sites/default/files/recruitment/). Rows 536-537 and 539-541 use ministryoftextiles.gov.in/advertisement (Wayback Nov 2025 confirmed title 'Advertisement | Ministry of Textiles | GoI', 12 recruitment mentions; CDX shows vacancy circulars under /advertisement/ path). Row 538 uses txcindia.gov.in/html/vacancy%20post%20of%20JC%20.htm (live 200, 7 vacancy keyword matches, Office of Textile Commissioner official site). Note: ministryoftextiles.gov.in, nhai.gov.in, rvnl.org unreachable from sandbox but confirmed via Wayback/CDX. txcindia.gov.in, irctc.com, concorindia.co.in all live and verified directly."
+}

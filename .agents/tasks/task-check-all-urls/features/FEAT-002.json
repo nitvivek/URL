@@ -1,0 +1,29 @@
+{
+  "id": "FEAT-002",
+  "type": "fix",
+  "description": "For each broken URL identified in FEAT-001, research the correct working recruitment/vacancy/career page and update the Excel file. Process in batches of 10 broken URLs. For each broken URL: (1) try common recruitment page patterns on the same domain, (2) search for the organization's recruitment page, (3) update ALL rows in the Excel that reference that broken URL. Commit after each batch of 10.",
+  "status": "completed",
+  "steps": [
+    "Read url_check_results.json to get the list of broken URLs",
+    "For each broken URL, determine the base domain and try common recruitment page paths: /recruitment, /careers, /vacancy, /vacancies, /jobs, /career, /offerings/vacancies, /recruitment-notices",
+    "If a working recruitment URL is found via path probing, use it as the replacement",
+    "If no working URL is found via probing, attempt to load the organization's homepage (base domain) to confirm the site is alive, then try to find a recruitment link",
+    "Update the Excel file column E for ALL rows that reference each broken URL",
+    "Also update column F (same as E) to match the new URL",
+    "Process in batches of 10 broken URLs. After each batch, save the Excel file and commit with message 'fix: update broken URLs batch N (rows X-Y)'",
+    "If a URL cannot be fixed (site is completely dead, no alternative found), document it in findings but leave the URL as-is",
+    "After all batches are done, update this feature file with findings documenting what was fixed and what could not be fixed"
+  ],
+  "acceptance_criteria": [
+    "All broken URLs have been investigated",
+    "Working replacement URLs have been applied to the Excel file",
+    "Each batch of 10 fixes has been committed",
+    "Findings document which URLs were fixed and which remain broken (with reasons)"
+  ],
+  "verification": [
+    "python3 -c \"import openpyxl; wb=openpyxl.load_workbook('Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx'); ws=wb['Main']; print(f'Rows: {ws.max_row-1}'); empty=[r for r in range(2,ws.max_row+1) if not ws.cell(row=r,column=5).value]; print(f'Empty URLs: {len(empty)}')\"",
+    "Verify all commits are on fix/recruitment-urls-batch1 branch"
+  ],
+  "blocked_reason": null,
+  "findings": "Investigated all 65 broken URLs using parallel HTTP probing with multiple timeout levels (8s, 15s, 25s) and alternative path discovery.\n\nFIXED (6 URLs changed, 14 rows updated):\n1. ministryoftextiles.gov.in/advertisement -> texmin.gov.in/recruitment (9 rows: 536-551)\n2. ccrum.res.in/UserView/index?mid=1752 -> ccrum.res.in/recruitment (1 row: 19)\n3. ncert.nic.in/CareerGuide.php?ln=hi -> ncert.nic.in/careers (1 row: 160)\n4. ntarecruitment.ntaonline.in/ -> nta.ac.in/careers (1 row: 169)\n5. www.iifpt.edu.in/careers.php -> http://www.iifpt.edu.in/careers.php [SSL fix] (1 row: 252)\n6. career.nise.res.in/ -> nise.res.in/careers (1 row: 378)\n\nCONFIRMED WORKING (21 URLs were temporarily down during initial check but work now):\nwcd.gov.in, mca.gov.in, agriwelfare.gov.in, gsi.gov.in, incometaxindia.gov.in, cwc.gov.in, nraa.gov.in, ppqs.gov.in, pharmaceuticals.gov.in, dmi.gov.in, ansi.gov.in, incois.gov.in, ugc.gov.in, ignfa.gov.in, nipfp.org.in, kvic.gov.in, cgat.gov.in, pngrb.gov.in, ncgg.org.in, rrbapply.gov.in, nhai.gov.in\n\nSTILL BROKEN (38 URLs - sites genuinely unresponsive/down, no working alternative found):\nThese sites are either completely down or consistently timing out. URLs left as-is since the sites may come back online. Major ones include: indianrailways.gov.in (13 rows), mod.gov.in (7 rows), minorityaffairs.gov.in (6 rows), mohua.gov.in (5 rows). Full list in url_fix_results.json."
+}

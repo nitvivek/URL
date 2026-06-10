@@ -1,0 +1,7 @@
+{
+  "task_id": "task-check-all-urls",
+  "task_description": "Check all 284 distinct URLs in the Excel file for HTTP accessibility. Identify broken URLs (4xx, 5xx, timeout, connection errors). Research and fix broken URLs with working recruitment/career/vacancy page alternatives. Process fixes in batches of 10.",
+  "status": "in_progress",
+  "feature_order": ["FEAT-001", "FEAT-002"],
+  "blocked_reason": null
+}

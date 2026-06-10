@@ -1,0 +1,14 @@
+{
+  "id": "FEAT-017",
+  "type": "fix",
+  "description": "Fix Batch 17 - final 2 rows (Rows 594, 595) covering BHEL and HMT.",
+  "status": "completed",
+  "steps": [
+    "Row 594: BHEL (currently https://heavyindustries.gov.in/en/whats-new) - find bhel.com career page",
+    "Row 595: HMT Limited (currently https://heavyindustries.gov.in/en/whats-new) - find hmtindia.com or similar career page"
+  ],
+  "acceptance_criteria": ["Both rows updated"],
+  "verification": ["Verify updated URLs"],
+  "blocked_reason": null,
+  "findings": "BHEL has a dedicated recruitment page at https://www.bhel.com/recruitment (confirmed accessible). HMT India site (www.hmtindia.com/careers/) is behind Cloudflare protection (403 to automated tools) but the URL is confirmed valid via Wayback Machine archive from Oct 2023. Both rows updated successfully."
+}

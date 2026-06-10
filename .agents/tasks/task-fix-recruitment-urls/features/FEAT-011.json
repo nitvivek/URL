@@ -1,0 +1,17 @@
+{
+  "id": "FEAT-011",
+  "type": "fix",
+  "description": "Fix Batch 11 - 10 rows (Rows 425, 428, 447, 448, 449, 450, 451, 452, 453, 454) covering Shipping field offices, IMU, and Railways.",
+  "status": "completed",
+  "steps": [
+    "Row 425: DGS Regional/Field Offices (currently https://www.dgshipping.gov.in/) - use DGS recruitment page",
+    "Row 428: IMU Indian Maritime University (currently https://www.imu.edu.in/) - find recruitment page",
+    "Row 447: Ministry of Railways (currently https://indianrailways.gov.in/) - find recruitment page",
+    "Row 448: Railway Board (currently https://indianrailways.gov.in/) - find recruitment page",
+    "Row 449-454: Railway Board Directorates (all https://indianrailways.gov.in/) - use common railway recruitment page"
+  ],
+  "acceptance_criteria": ["All 10 rows updated"],
+  "verification": ["Verify updated URLs"],
+  "blocked_reason": null,
+  "findings": "All 10 rows updated. Row 425 uses dgshipping.gov.in/Content/VacancyNotices.aspx (live 200, 120 vacancy mentions - same as row 423). Row 428 uses imu.edu.in/imunew/recruitment (live 200, 509KB page with active 2026 recruitment documents). Rows 447-454 use indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,5,373 (Vacancy Circulars section, confirmed via Wayback Machine - page has 17 vacancy mentions, 20 circular mentions, 7 recruit mentions). Note: Railway URL uses numeric page ID similar to petroleum ministry case (batch 10) but content confirmed as Vacancy Circulars page. indianrailways.gov.in is unreachable from sandbox but confirmed active domain via Wayback (2025 snapshots exist)."
+}

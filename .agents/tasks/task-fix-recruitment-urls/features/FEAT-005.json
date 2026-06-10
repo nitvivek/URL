@@ -1,0 +1,28 @@
+{
+  "id": "FEAT-005",
+  "type": "fix",
+  "description": "Fix Batch 5 - 10 rows (Rows 170, 174, 192, 195, 196, 209, 211, 226, 237, 240) covering Education field offices, Environment, External Affairs, Finance, and Fisheries organizations. Working file: 'Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx'",
+  "status": "completed",
+  "steps": [
+    "Row 170: Regional Offices of KVS/NVS (currently https://kvsangathan.nic.in/) - same as KVS parent",
+    "Row 174: STQC (currently https://stqc.gov.in/) - find recruitment page",
+    "Row 192: IGNFA (currently https://ignfa.gov.in/) - find recruitment page",
+    "Row 195: NBA (currently http://nbaindia.org/) - find recruitment page",
+    "Row 196: NTCA (currently https://www.ntca.gov.in/) - find recruitment page",
+    "Row 209: Passport Offices (currently https://passportindia.gov.in/) - find recruitment section",
+    "Row 211: RIS (currently https://ris.org.in/) - find recruitment page",
+    "Row 226: IRDAI (currently https://www.irdai.gov.in/) - find recruitment page",
+    "Row 237: CIFNET (currently https://www.cifnet.nic.in/) - find recruitment page",
+    "Row 240: CIFRI (currently https://www.cifri.res.in/) - find recruitment page",
+    "Update columns E-M and save"
+  ],
+  "acceptance_criteria": [
+    "All 10 rows have recruitment-specific URLs where available",
+    "Excel file saves correctly"
+  ],
+  "verification": [
+    "Re-read target rows and verify URLs are updated with recruitment keywords"
+  ],
+  "blocked_reason": null,
+  "findings": "Updated 10 rows covering Education field offices, Environment, External Affairs, Finance, and Fisheries organizations. Wayback Machine CDX API was highly intermittent (frequent ECONNREFUSED and 500 errors) but direct Wayback page fetches worked. Key findings: Row 170 -> kvsangathan.nic.in/recruitment/ (same as FEAT-004 Row 158); Row 174 -> stqc.gov.in/vacancies (found via Wayback Jan 2025 homepage crawl - site itself is unreachable); Row 192 -> ignfa.gov.in/recruitment (confirmed via Wayback Jan 2025 - site blocks automated access with 403); Row 195 -> nbaindia.org/blog/246/28/1/opportunities.html (verified live 200, found on homepage); Row 196 -> ntca.gov.in/p/tenders (contains recruitment notices - site has no dedicated recruitment page); Row 209 -> mea.gov.in/vacancies.htm (passportindia.gov.in is just a service portal with no recruitment section - passport offices recruit via MEA); Row 211 -> ris.org.in/en/opening (Careers page found on homepage, verified live 200); Row 226 -> irdai.gov.in/career-at-irdai (found via Wayback Jul 2024 - site blocks direct access with 403); Row 237 -> cifnet.gov.in/index.php/content/index/vacancies (site moved from cifnet.nic.in to cifnet.gov.in - has SSL cert issues but page confirmed via Wayback); Row 240 -> cifri.res.in/Directrecruitment.html (found in Wayback Mar 2019 crawl, verified live 200). All 10 rows now have recruitment-specific keywords in URLs."
+}

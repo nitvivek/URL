@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-014",
+  "type": "fix",
+  "description": "Fix Batch 14 - 10 rows (Rows 542, 543, 544, 545, 546, 547, 548, 550, 551, 563) covering more Textiles organizations and start of Women & Child Development.",
+  "status": "completed",
+  "steps": [
+    "Row 542: National Jute Board (currently https://ministryoftextiles.gov.in/) - find recruitment page",
+    "Row 543: Central Silk Board Coord (currently https://ministryoftextiles.gov.in/) - find csb.gov.in career page",
+    "Row 544: Textile Commissionerate Field Offices (currently https://ministryoftextiles.gov.in/) - use ministry recruitment",
+    "Row 545: Handloom/Handicrafts Field Formations (currently https://ministryoftextiles.gov.in/) - use ministry",
+    "Row 546: Powerloom Service Centres (currently https://ministryoftextiles.gov.in/) - use ministry",
+    "Row 547: Textiles Committee (currently https://ministryoftextiles.gov.in/) - find textilescommittee.nic.in",
+    "Row 548: Central Silk Board (currently https://ministryoftextiles.gov.in/) - find csb.gov.in career page",
+    "Row 550: NID Coordination (currently https://ministryoftextiles.gov.in/) - find nid.edu career page",
+    "Row 551: IIHT (currently https://ministryoftextiles.gov.in/) - find recruitment page",
+    "Row 563: Ministry of Women & Child Development (currently https://wcd.gov.in/) - find recruitment page (user specifically mentioned this one)"
+  ],
+  "acceptance_criteria": ["All 10 rows updated"],
+  "verification": ["Verify updated URLs"],
+  "blocked_reason": null,
+  "findings": "All 10 rows updated. Row 542 (National Jute Board) uses ministryoftextiles.gov.in/advertisement - no independent domain exists (juteboard.gov.in/njb.gov.in DNS not found). Row 543 and 548 (Central Silk Board) use csb.gov.in/job-opportunities/job/ (Wayback Jan 2025 confirmed, 45+ recruitment keyword mentions). Row 544 (Textile Commissionerate) uses txcindia.gov.in/html/vacancy%20post%20of%20JC%20.htm (confirmed in batch 13). Rows 545, 546, 551 (Handloom/Handicrafts, PSCs, IIHTs) use ministryoftextiles.gov.in/advertisement - no independent recruitment pages found. Row 547 (Textiles Committee) uses textilescommittee.nic.in/detail-advertisement-various-technical-and-non-technical-posts-apply-online (Wayback confirmed title and 11 apply/advertisement mentions). Row 550 (NID) uses careers.nid.edu (live 200, title NID Career, keywords: career/opening/position/apply). Row 563 (WCD) uses wcd.gov.in/offerings/career (CDX confirmed active June 2025, contains vacancy references). Wayback CDX was intermittent during research but web snapshots worked. .gov.in sites unreachable directly except wcd.gov.in (with SSL bypass)."
+}

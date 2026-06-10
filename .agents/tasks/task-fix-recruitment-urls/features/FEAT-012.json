@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-012",
+  "type": "fix",
+  "description": "Fix Batch 12 - 10 rows (Rows 455, 456, 457, 458, 459, 460, 461, 462, 463, 464) covering more Railways organizations.",
+  "status": "completed",
+  "steps": [
+    "Row 455: Railway Board Safety Directorate (currently https://indianrailways.gov.in/) - use railway recruitment",
+    "Row 456: Zonal Railways (currently https://indianrailways.gov.in/) - use recruitment page",
+    "Row 457: Divisional Railway Offices (currently https://indianrailways.gov.in/) - use recruitment page",
+    "Row 458: Production Units (currently https://indianrailways.gov.in/) - use recruitment page",
+    "Row 459: RRBs (currently https://rrbapply.gov.in/) - rrbapply IS recruitment - check for better path",
+    "Row 460: Railway Training Institutes (currently https://indianrailways.gov.in/) - use recruitment page",
+    "Row 461: NRTI (currently https://indianrailways.gov.in/) - find NRTI specific page",
+    "Row 462: IRITM (currently https://indianrailways.gov.in/) - find IRITM specific page",
+    "Row 463: IRCON (currently https://indianrailways.gov.in/) - find ircon.org career page",
+    "Row 464: RITES (currently https://indianrailways.gov.in/) - find rites.com career page"
+  ],
+  "acceptance_criteria": ["All 10 rows updated"],
+  "verification": ["Verify updated URLs"],
+  "blocked_reason": null,
+  "findings": "All 10 rows updated. Rows 455-458 and 460 use indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,5,373 (Railway Board Vacancy Circulars - same as batch 11, confirmed via Wayback). Row 459 keeps rrbapply.gov.in/ as it IS the RRB centralized application portal (recruitment keyword in domain). Row 461 updated to gsv.ac.in/careers/ (Gati Shakti Vishwavidyalaya, formerly NRTI - live 200, 206 career/job mentions). Row 462 uses iritm.indianrailways.gov.in/view_section.jsp?lang=0&id=0,4,525 (IRITM Vacancies page confirmed via Wayback 2023 snapshot). Row 463 uses www.ircon.org/hr-career (live 200, 14 recruitment mentions, title 'HR Career | Ircon International Limited'). Row 464 uses rites.com/Career (live 200, 47 recruitment mentions, links to recruit.rites.com portal). Note: iritm.indianrailways.gov.in and indianrailways.gov.in are unreachable from sandbox but confirmed active via Wayback. rrbapply.gov.in returns 404 currently but is still referenced as the official application portal by active RRB websites (rrbcdg.gov.in)."
+}
