@@ -2,7 +2,7 @@
   "id": "FEAT-002",
   "type": "fix",
   "description": "Fix Batch 2 - 10 rows (Rows 52, 53, 56, 59, 62, 68, 75, 77, 81, 102) with homepage-only URLs. These are Ministry of Commerce & Industry, Communications, Consumer Affairs, and Culture organizations. Working file: 'Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx'",
-  "status": "pending",
+  "status": "in_progress",
   "steps": [
     "For Row 52 (Ministry of Commerce & Industry, currently https://commerce.gov.in/): Find commerce.gov.in/recruitment or /vacancies page",
     "For Row 53 (Department of Commerce, currently https://commerce.gov.in/): Same ministry - find recruitment page",
