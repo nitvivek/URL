@@ -1,0 +1,28 @@
+{
+  "id": "FEAT-004",
+  "type": "fix",
+  "description": "Fix Batch 4 - 10 rows (Rows 128, 129, 148, 151, 154, 158, 161, 162, 163, 164) covering Navy/Air Force HQ, Earth Sciences, and Education organizations. Working file: 'Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx'",
+  "status": "in_progress",
+  "steps": [
+    "Row 128: Navy Headquarters (currently https://www.joinindiannavy.gov.in/) - check for /career or /recruitment path",
+    "Row 129: Air Headquarters (currently https://indianairforce.nic.in/) - check for /recruitment or /career",
+    "Row 148: Geological Survey of India GSI (currently https://www.gsi.gov.in/) - find recruitment page",
+    "Row 151: INCOIS (currently https://incois.gov.in/) - find recruitment page",
+    "Row 154: GSI Regional Units (currently https://www.gsi.gov.in/) - same as GSI parent",
+    "Row 158: KVS (currently https://kvsangathan.nic.in/) - find recruitment page",
+    "Row 161: CTSA (currently https://ctsa.nic.in/) - find recruitment page",
+    "Row 162: UGC (currently https://www.ugc.gov.in/) - find recruitment page",
+    "Row 163: AICTE (currently https://www.aicte-india.org/) - find recruitment page",
+    "Row 164: NCTE (currently https://ncte.gov.in/) - find recruitment page",
+    "Update columns E-M and save"
+  ],
+  "acceptance_criteria": [
+    "All 10 rows have recruitment-specific URLs where available",
+    "Excel file saves correctly"
+  ],
+  "verification": [
+    "Re-read target rows and verify URLs are updated with recruitment keywords"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}
