@@ -1,0 +1,31 @@
+{
+  "id": "FEAT-003",
+  "type": "fix",
+  "description": "Fix Batch 3 - 10 rows (Rows 117, 118, 120, 121, 122, 123, 124, 125, 126, 127) - Ministry of Defence organizations. Working file: 'Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx'",
+  "status": "pending",
+  "steps": [
+    "For Row 117 (Ministry of Defence, currently https://mod.gov.in/): Find mod.gov.in recruitment/vacancies page",
+    "For Row 118 (Department of Defence, currently https://mod.gov.in/): Same - find recruitment page",
+    "For Row 120 (Dept of Military Affairs, currently https://mod.gov.in/): Find recruitment sub-page",
+    "For Row 121 (Dept of Ex-Servicemen Welfare, currently https://desw.gov.in/): Find DESW recruitment page",
+    "For Row 122 (Integrated Defence Staff, currently https://mod.gov.in/): Find IDS recruitment page",
+    "For Row 123 (DGQA, currently https://www.dgqadefence.gov.in/): Find DGQA recruitment page",
+    "For Row 124 (DGAQA, currently https://mod.gov.in/): Find DGAQA recruitment page",
+    "For Row 125 (DGAV, currently https://mod.gov.in/): Find DGAV recruitment page",
+    "For Row 126 (Directorate of Standardisation, currently https://mod.gov.in/): Find recruitment page",
+    "For Row 127 (Army Headquarters, currently https://joinindianarmy.nic.in/): Check if this site has /recruitment or /career - joinindianarmy.nic.in is actually a recruitment site itself",
+    "Update columns E-M for each row",
+    "Save the Excel file"
+  ],
+  "acceptance_criteria": [
+    "All 10 rows have URLs with recruitment-specific paths where available",
+    "Defence ministry rows that share a common recruitment portal are noted appropriately",
+    "Excel file saves without corruption"
+  ],
+  "verification": [
+    "Re-read rows 117-127 and verify updated URLs",
+    "Check URLs contain recruitment keywords where possible"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}

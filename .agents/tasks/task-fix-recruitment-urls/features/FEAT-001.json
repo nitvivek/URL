@@ -1,0 +1,34 @@
+{
+  "id": "FEAT-001",
+  "type": "fix",
+  "description": "Fix Batch 1 - 10 rows (Rows 15, 16, 19, 24, 28, 33, 38, 39, 40, 44) with homepage-only URLs. Research each organization's actual recruitment/vacancy/career page and update the Excel file. Working file: 'Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx'",
+  "status": "in_progress",
+  "steps": [
+    "Create a Python script that: (a) reads the PILOT BATCH Excel file, (b) for each of the 10 target rows, uses web_fetch/requests to check the organization's website for recruitment-specific pages, (c) updates columns E-M with the correct data",
+    "For Row 15 (NIUM Bengaluru, currently https://aiia.gov.in/): Find NIUM's actual website (nium.in or similar) and its recruitment/career page",
+    "For Row 16 (NIS Chennai, currently https://www.nia.nic.in/news.html): Find NIS Chennai's actual site (nischennai.org) and its recruitment page",
+    "For Row 19 (CCRUM, currently https://www.nih.nic.in/): Find CCRUM's actual site (ccrum.res.in) and its recruitment page",
+    "For Row 24 (CCH, currently https://naturopathyday.in/vac.php): Find CCH's actual site and recruitment page",
+    "For Row 28 (Dept of Fertilizers, currently https://pcimh.gov.in/...): Find fert.gov.in recruitment/vacancy page",
+    "For Row 33 (PCI, currently https://www.pci.gov.in/en/blog/?category=Announcement): Find PCI's specific recruitment/vacancy page if available, or keep announcement page if that's where vacancies are posted",
+    "For Row 38 (DGCA, currently https://www.dgca.gov.in/digigov-portal/): Research if DGCA has a specific recruitment subpage within the portal",
+    "For Row 39 (BCAS, currently https://www.bcasindia.gov.in/): Research if BCAS has a recruitment section",
+    "For Row 40 (AAIB, currently https://aaib.gov.in/): Research if AAIB has a specific recruitment page",
+    "For Row 44 (Regional Airworthiness Offices/DGCA Field Units, currently https://www.dgca.gov.in/digigov-portal/): Same as DGCA parent",
+    "Update columns E (URL), F (same URL), G ('Same Page'), H ('Yes'), I (Priority), J (descriptive notes), K (today's date), L ('No'), M ('Website' or 'Portal') for each row",
+    "Save the Excel file and verify the changes"
+  ],
+  "acceptance_criteria": [
+    "All 10 rows in the batch have URLs containing recruitment-specific keywords where possible",
+    "Where no dedicated recruitment page exists (e.g., single-page apps, small orgs), the notes in column J explain why the homepage/portal URL is used",
+    "The Excel file is saved correctly and can be reopened without corruption",
+    "Each URL has been verified to return HTTP 200 or confirmed to be the correct page"
+  ],
+  "verification": [
+    "Run the Python script and confirm it completes without errors",
+    "Re-read the Excel file and print rows 15, 16, 19, 24, 28, 33, 38, 39, 40, 44 to verify URLs are updated",
+    "Check that updated URLs contain recruitment-specific keywords where applicable"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}

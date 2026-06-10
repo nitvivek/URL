@@ -1,0 +1,31 @@
+{
+  "id": "FEAT-002",
+  "type": "fix",
+  "description": "Fix Batch 2 - 10 rows (Rows 52, 53, 56, 59, 62, 68, 75, 77, 81, 102) with homepage-only URLs. These are Ministry of Commerce & Industry, Communications, Consumer Affairs, and Culture organizations. Working file: 'Master list - Ministries and Departments - PILOT BATCH (rows 32-42) (1).xlsx'",
+  "status": "pending",
+  "steps": [
+    "For Row 52 (Ministry of Commerce & Industry, currently https://commerce.gov.in/): Find commerce.gov.in/recruitment or /vacancies page",
+    "For Row 53 (Department of Commerce, currently https://commerce.gov.in/): Same ministry - find recruitment page",
+    "For Row 56 (SEZ Commissionerates, currently https://commerce.gov.in/): Find if SEZ has own recruitment or uses commerce.gov.in recruitment",
+    "For Row 59 (Tea Board, currently https://www.teaboard.gov.in/TEABOARDPAGE/MjU=): Find Tea Board's vacancy/recruitment page",
+    "For Row 62 (Tobacco Board, currently https://tobaccoboard.in/): Find Tobacco Board's recruitment page",
+    "For Row 68 (WPC/Wireless Planning, currently https://dot.gov.in/wireless-planning-coordination): Find DoT recruitment page",
+    "For Row 75 (Dept of Food & Public Distribution, currently https://dfpd.gov.in/): Find DFPD recruitment page",
+    "For Row 77 (DMI, currently https://dmi.gov.in/): Find DMI recruitment page",
+    "For Row 81 (CCPA, currently https://consumeraffairs.gov.in/...): Find consumer affairs ministry recruitment page",
+    "For Row 102 (AnSI, currently https://ansi.gov.in/): Find AnSI recruitment page",
+    "Update columns E-M for each row with verified recruitment URLs, notes, and dates",
+    "Save the Excel file"
+  ],
+  "acceptance_criteria": [
+    "All 10 rows have URLs with recruitment-specific paths where available",
+    "Notes explain cases where only homepage is available",
+    "Excel file saves without corruption"
+  ],
+  "verification": [
+    "Re-read rows 52, 53, 56, 59, 62, 68, 75, 77, 81, 102 and verify updated URLs",
+    "Check URLs contain recruitment keywords where possible"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}
