@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-009",
+  "type": "fix",
+  "description": "Fix Batch 9 - 10 rows (Rows 366, 367, 370, 393, 397, 398, 399, 402, 403, 404) covering Minority Affairs remainder, Personnel & Training, and Petroleum.",
+  "status": "completed",
+  "steps": [
+    "Row 366: NCM (currently https://ncm.nic.in/) - find recruitment page",
+    "Row 367: MAEF (currently https://minorityaffairs.gov.in/) - find recruitment page",
+    "Row 370: Minority Affairs Field Offices (currently https://minorityaffairs.gov.in/)",
+    "Row 393: DoPT (currently https://dopt.gov.in/) - find recruitment/vacancy page",
+    "Row 397: CAT (currently https://dopt.gov.in/) - find recruitment page",
+    "Row 398: SSC (currently https://ssc.gov.in/check-notice-board) - find specific recruitment page",
+    "Row 399: CVC (currently https://cvc.gov.in/) - find recruitment page",
+    "Row 402: NCGG (currently https://dopt.gov.in/) - find recruitment page",
+    "Row 403: DoPT Cadre Units (currently https://dopt.gov.in/)",
+    "Row 404: Ministry of Petroleum (currently https://petroleum.gov.in/) - find recruitment page"
+  ],
+  "acceptance_criteria": ["All 10 rows updated"],
+  "verification": ["Verify updated URLs"],
+  "blocked_reason": null,
+  "findings": "All 10 rows updated. NCM has its own vacancy page at ncm.nic.in/homepage/present_vacancies.php (confirmed via live access). MAEF (Row 367) and Minority Affairs Field Offices (Row 370) use ministry Careers page (no separate recruitment pages). DoPT (Rows 393, 403) uses doptcirculars.nic.in/Default.aspx?URL=wFJpTEk06p7x (Vacancy Circulars) confirmed from DoPT site navigation. CAT uses cgat.gov.in/catlive/vacancies.php (Central Administrative Tribunal - note: cat.gov.in is a nuclear research center, NOT CAT). SSC (ssc.gov.in/recruitment) confirmed live with HTTP 200. CVC (cvc.gov.in/?q=notification/vacancies) confirmed via multiple Wayback captures. NCGG (ncgg.org.in/vacancies) confirmed via Wayback 2021 cached homepage. Petroleum ministry uses mopng.gov.in/en/page/30 (Vacancy circular) - petroleum.gov.in domain has no CDX captures but mopng.gov.in is the active domain confirmed."
+}
