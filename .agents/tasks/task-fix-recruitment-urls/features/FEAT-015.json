@@ -2,7 +2,7 @@
   "id": "FEAT-015",
   "type": "fix",
   "description": "Fix Batch 15 - 10 rows (Rows 564, 565, 566, 567, 568, 569, 570, 571, 572, 573) covering WCD divisions and sub-organizations.",
-  "status": "in_progress",
+  "status": "completed",
   "steps": [
     "Row 564: WCD Secretariat (currently https://wcd.gov.in/) - find WCD recruitment page",
     "Row 565: Child Development Division (currently https://wcd.gov.in/) - same",
@@ -18,5 +18,5 @@
   "acceptance_criteria": ["All 10 rows updated"],
   "verification": ["Verify updated URLs"],
   "blocked_reason": null,
-  "findings": ""
+  "findings": "All 10 rows updated. Rows 564-569, 570, 572, 573 (WCD Secretariat, Child Development, Women Empowerment, Mission Shakti, Mission Vatsalya, POSHAN 2.0, CARA, Anganwadi/ICDS, State/District Directorates) use wcd.gov.in/offerings/career (Wayback Jun 2025, 200, career page). Row 571 (NCPCR) uses ncpcr.gov.in/public/recruitment (live 200, title Recruitment NCPCR Govt of India, contains vacancy circulars and deputation posts). CARA (cara.wcd.gov.in) has no dedicated recruitment page - site is adoption-focused, returns 403 live but active on Wayback; uses parent ministry WCD career page. wcd.gov.in/offerings/career currently returns 500 live but was confirmed via Wayback archive Jun 2025 with career/vacancy content."
 }
